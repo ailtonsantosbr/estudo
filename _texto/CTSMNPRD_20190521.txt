@@ -1,0 +1,233 @@
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:44:37    útimo acesso: 20/05/2019 01:17:04
+
+ANS8000I Comando do servidor: 'Select STATUS, count (*) as TOTAL from events where scheduled_start>'2019-05-20 00:00:00' and (status like 'Missed' or status like 'Failed' or status like 'Completed') and scheduled_start<'2019-05-20 23:59:59' group by STATUS order by STATUS'.
+
+STATUS: Completed
+ TOTAL: 499
+
+STATUS: Failed
+ TOTAL: 88
+
+STATUS: Missed
+ TOTAL: 18
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:44:58    útimo acesso: 21/05/2019 01:44:37
+
+ANS8000I Comando do servidor: 'SELECT COUNT(*) as NOT_ASSOC FROM nodes WHERE node_name NOT IN (SELECT node_name FROM associations)'.
+
+NOT_ASSOC: 139
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:01    útimo acesso: 21/05/2019 01:44:58
+
+ANS8000I Comando do servidor: 'SELECT COUNT(*) as LOCKED FROM nodes where LOCKED = 'YES''.
+
+LOCKED: 9
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:04    útimo acesso: 21/05/2019 01:45:01
+
+ANS8000I Comando do servidor: 'SELECT SUM(num_nodes) as TOTAL FROM domains'.
+
+TOTAL: 506
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:07    útimo acesso: 21/05/2019 01:45:04
+
+ANS8000I Comando do servidor: 'Select count (*) as TOTAL from volumes where devclass_name='SL8500_01''.
+
+TOTAL: 10
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:11    útimo acesso: 21/05/2019 01:45:07
+
+ANS8000I Comando do servidor: 'Select count (*) as FULL from volumes where devclass_name='SL8500_01' and status='FULL''.
+
+FULL: 0
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:16    útimo acesso: 21/05/2019 01:45:11
+
+ANS8000I Comando do servidor: 'Select count (*) as FILLING from volumes where devclass_name='SL8500_01' and status='FILLING''.
+
+FILLING: 1
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:21    útimo acesso: 21/05/2019 01:45:16
+
+ANS8000I Comando do servidor: 'Select count (*) as EMPTY from volumes where devclass_name='SL8500_01' and status='EMPTY''.
+
+EMPTY: 9
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:24    útimo acesso: 21/05/2019 01:45:21
+
+ANS8000I Comando do servidor: 'Select count (*) as TOTAL from volumes where devclass_name='SL8500_02''.
+
+TOTAL: 10
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:29    útimo acesso: 21/05/2019 01:45:25
+
+ANS8000I Comando do servidor: 'Select count (*) as FULL from volumes where devclass_name='SL8500_02' and status='FULL''.
+
+FULL: 3
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:33    útimo acesso: 21/05/2019 01:45:29
+
+ANS8000I Comando do servidor: 'Select count (*) as FILLING from volumes where devclass_name='SL8500_02' and status='FILLING''.
+
+FILLING: 7
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:39    útimo acesso: 21/05/2019 01:45:33
+
+ANS8000I Comando do servidor: 'Select count (*) as EMPTY from volumes where devclass_name='SL8500_02' and status='EMPTY''.
+
+EMPTY: 0
+
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:43    útimo acesso: 21/05/2019 01:45:39
+
+ANS8000I Comando do servidor: 'SELECT stgpool_name, CAST(FLOAT(sum((est_capacity_mb/1024/1024) * pct_utilized / 100)) AS DEC(8,2)) total_data_tb FROM stgpools WHERE stgpool_name='PRIMARYPOOL' GROUP BY stgpool_name'.
+
+STGPOOL_NAME                          TOTAL_DATA_TB
+--------------------------------     --------------
+PRIMARYPOOL                                   29.75
+
+ANS8002I O maior ódigo de retorno foi 0.
+
+IBM Spectrum Protect
+Interface Administrativa de Linha de Comandos - Versão 8, Release 1, Nível 6.1
+(c) Copyright by IBM Corporation and other(s) 1990, 2018.
+(c) Copyright IBM Corporation e outra(s) 1990, 2018. Todos os Direitos Reservados.
+
+Sessão estabelecida com o servidor CTSMNPRD: Windows
+  Versão do servidor 8, Liberação 1, Nível 5.100
+  Data/hora do servidor: 21/05/2019 01:45:46    útimo acesso: 21/05/2019 01:45:43
+
+ANS8000I Comando do servidor: 'select RESTART_DATE from status'.
+
+               RESTART_DATE
+---------------------------
+ 2019-02-13 14:34:28.000000
+
+ANS8002I O maior ódigo de retorno foi 0.
+

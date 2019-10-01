@@ -1,0 +1,243 @@
+
+
+a.arfid80135 img.btnimg { top:-439px!important; left:0px!important; } /* button white chevron right.gif */ 
+a.arfid80162 img.btnimg { top:-411px!important; left:0px!important; } /* button white chevron left.gif */ 
+
+/*  breadcrumb styling */
+
+.BreadCrumbStyle {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px  !important;
+}  
+
+.BreadCrumbStyle .HNavItem {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px  !important;
+}   
+
+.BreadCrumbStyle .HNavItem .left {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border-left: 0px;
+   border-right: 0px;
+   border-top: 0px;
+   border-bottom: 0px;
+    margin-right: 3px;   
+   width: 0px;
+   height: 21px;  
+}
+
+.BreadCrumbStyle .HNavItem .center {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px !important;
+   border-top: 0px;
+   border-bottom: 0px;
+   padding-top: 0px; 
+   padding-bottom: 0px; 
+   padding-left: 0px;
+   padding-right: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+    height: 21px;  
+}
+
+.BreadCrumbStyle .HNavItem .center a.btn {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px  !important;
+   padding-top: 4px;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-bottom: 4px;
+   border-bottom: 0px; 
+   height: 23px;     
+}
+
+.BreadCrumbStyle .HNavItem .center a.btn:hover {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px  !important;
+   border-bottom: 0px;
+   height: 23px;     
+}
+
+.BreadCrumbStyle .HNavItem .right {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border-left: 0px;
+   border-right: 0px;
+   border-top: 0px;
+   border-bottom: 0px;
+  margin-left: 3px;
+   width: 0px;
+   height: 21px;   
+}
+
+.BreadCrumbStyle .HNavItem a.btn {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px !important;
+   color: #004376 !important;
+   font-weight: normal;
+   text-decoration: underline;
+   padding-top: 4px;
+   padding-bottom: 4px;
+   margin-bottom: 5px;   
+   height: 21px;    
+}
+
+.BreadCrumbStyle .HNavItem a.btn:hover {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px  !important;
+   color: #004376 !important;
+   font-weight: normal;
+   text-decoration: underline;
+   padding-top: 4px;   
+   padding-bottom: 4px;
+}
+
+.BreadCrumbStyle .HNavItem .leftrnd {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border-top: 0px;
+   border-bottom: 0px;
+   height: 21px;   
+   width: 4px;
+  /*  margin-right: -2px;   */
+      margin-right: 5px;   
+}
+
+.BreadCrumbStyle .HNavItem .rightrnd {
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border-top: 0px;
+   border-bottom: 0px;
+   height: 21px;   
+   margin-left: 5px;
+}
+
+.BreadCrumbStyle .HNavDisabled .left, .BreadCrumbStyle .HNavDisabled .leftrnd, .BreadCrumbStyle .HNavDisabled .center, .BreadCrumbStyle .HNavDisabled .right, .BreadCrumbStyle .HNavDisabled .rightrnd, .BreadCrumbStyle .HNavDisabled {
+   background: #dee0e0;
+   border-top: 1px #d8d8d8;
+}
+
+.BreadCrumbStyle  .HNavSelected {
+   background:url("../../../../resources/images/mt_sprites.gif") -16px -2320px  !important;
+}  
+
+.BreadCrumbStyle .HNavSelected .left, .BreadCrumbStyle .HNavSelected .leftrnd {
+   /* background:url("../../../../sharedresources/image/selectedTabLeft.gif?server=csm-solution2") !important; */
+   background:url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;   
+   border-bottom: 0px;
+   height: 21px;      
+   cursor: default;
+} 
+
+.BreadCrumbStyle .HNavSelected .center {
+   /* background:url("../../../../sharedresources/image/selectedTabBG.gif?server=csm-solution2") !important; */        
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px !important;
+   border-top: 0px;
+   border-bottom: 0px;
+   padding-top: 0px; 
+   padding-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+   margin-left: 0px;
+   margin-right: 0px;
+   height: 21px;      
+}
+
+.BreadCrumbStyle .HNavSelected .center a.btn {
+   /* background:url("../../../../sharedresources/image/selectedTabBG.gif?server=csm-solution2") !important; */        
+   background: #dee0e0 url("../../../../resources/images/mt_sprites.gif") -16px -2320px !important;
+   border-bottom: 0px;
+   padding-top: 9px;
+   padding-left: 0px;
+   padding-right: 0px;   
+   padding-bottom: 8px;    
+}
+
+.BreadCrumbStyle .HNavSelected a.btn {
+   color: #004376 !important;
+   font-weight: bold;
+   text-decoration: none;   
+   cursor: default;
+   padding-top: 9px;   
+   padding-bottom: 8px;      
+}
+
+.BreadCrumbStyle .HNavSelected .right, .BreadCrumbStyle .HNavSelected .rightrnd {
+   /* background:url("../../../../sharedresources/image/selectedTabRight.gif?server=csm-solution2") !important; */
+   background:url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border-bottom: 0px;   
+   cursor: default;
+   height: 21px;      
+}
+
+.BreadCrumbStyle .arfid304247441 a.btn {
+   text-decoration: none !important;
+   cursor: default;
+}
+
+.BreadCrumbStyle .arfid304247443 a.btn {
+   text-decoration: none !important;
+   cursor: default;   
+}
+
+.BreadCrumbStyle .arfid304247445 a.btn {
+   text-decoration: none !important;
+   cursor: default;   
+}
+
+.BreadCrumbStyle .arfid304247447 a.btn {
+   text-decoration: none !important;
+   cursor: default;   
+}
+
+.BreadCrumbStyle .arfid304247449 a.btn {
+   text-decoration: none !important;
+   cursor: default;   
+}
+
+.BreadCrumbStyle .arfid304252050 a.btn {
+   text-decoration: none !important;
+   cursor: default;   
+}
+
+.BreadCrumbStyle .arfid304252060 a.btn {
+   text-decoration: none !important;
+   cursor: default;   
+}
+
+/*  Various styling for ITSM Apps */
+
+div.arfid304253820 a.btn3d,a.btn3ddown,button.btn3d {
+   background: white url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border: 0px;
+}
+
+div.arfid304253820 a.btn3d:hover,button.btn3d:hover{
+   background: white url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border: 0px;
+}
+
+
+div.arfid304253830 a.btn3d,a.btn3ddown,button.btn3d {
+   background: white url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border: 0px;
+}
+
+div.arfid304253830 a.btn3d:hover,button.btn3d:hover{
+   background: white url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border: 0px;
+}
+
+div.arfid1000004460 a.btn3d,a.btn3ddown,button.btn3d {
+   background: white url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border: 0px;
+}
+
+div.arfid1000004460 a.btn3d:hover,button.btn3d:hover{
+   background: white url("../../../../resources/images/mt_sprites.gif") -16px -2320px no-repeat !important;
+   border: 0px;
+}
+
+/*  Various styling for IT Home */
+
+a.arfid80020 img.btnimg, a.arfid80050 img.btnimg, a.arfid80035 img.btnimg, a.arfid80065 img.btnimg { top:-217px!important; left:0px!important; } /* button round-expand-glyph.gif */ 
+a.arfid80016 img.btnimg, a.arfid80046 img.btnimg, a.arfid80031 img.btnimg, a.arfid80061 img.btnimg { top:-93px!important; left:0px!important; } /* button round-close-glyph.gif */ 
+a.arfid80017 img.btnimg, a.arfid80047 img.btnimg, a.arfid80032 img.btnimg, a.arfid80062 img.btnimg { top:-124px!important; left:0px!important; } /* button round-collapse-glyph.gif */ 
+a.arfid80019 img.btnimg, a.arfid80049 img.btnimg, a.arfid80034 img.btnimg, a.arfid80064 img.btnimg { top:-186px!important; left:0px!important; } /* button round-edit-glyph.gif */ 
+div.arfid80025 div.FormContainerBackground, div.arfid80055 div.FormContainerBackground, div.arfid80040 div.FormContainerBackground, div.arfid80070 div.FormContainerBackground { top:-339px!important; left:0px!important; height:450px!important; } /* button s-curve.png */ 
+
+a.arfid80108 img.btnimg { top:-308px!important; left:0px!important; } /* button round-save-glyph.gif */ 
+a.arfid80106 img.btnimg { top:-277px!important; left:0px!important; } /* button round-restore-glyph.gif */ 
+a.arfid80138 img.btnimg { top:-62px!important; left:0px!important; } /* button round-add-glyph.gif */ 
+div.arfid80160 div.FormContainerBackground { top:-375px!important; left:0px!important;height:450px!important; } /* button s-curve-on-blue.png */ 
+

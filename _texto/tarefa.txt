@@ -1,0 +1,20 @@
+Contador de 0 a 100;
+criar um arquivo na mao e abrir..;14:48 07/05/2019
+contador multiplo de 2 ate 200;
+
+
+08/05/2019
+
+tarefa do dia..
+
+Leitura de um arquivo, apagar os dados e colocar novos dados;
+criar um formulario, campos nome primeiro caracterece caixa alta, data nasc calcular idade, cpf formatado com . - , telefone formatdo (11) 99999-9999, 
+profissao;
+
+
+
+
+
+ 
+
+

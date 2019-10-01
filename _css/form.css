@@ -1,0 +1,52 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: rgb(147, 163, 158);
+}
+
+h1 {
+	font-style: normal;
+	border-style: groove;
+	border-width: 5px;
+	border-radius: 15px;
+}
+
+p#cab {
+	font-size: 25px;
+	border-style: groove;
+	border-width: 1px;
+	border-radius: 15px;
+	color: #eb8d8d;
+}
+
+header {
+	background-color: #666666;
+	padding: 10px;
+	text-align: center;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(117, 117, 250);
+	border-color: #383bf1;
+	margin-left: 400px;
+	margin-right: 400px;
+	border-radius: 15px;
+}
+
+input {
+	border-radius: 7px;
+}
+
+nav {
+	float: left;
+	width: 30%;
+	height: 300px;
+	background: #cccccc;
+	padding: 20px;
+}
+
+div.form {
+	background: #a9aaf3;
+	border: 20px;
+	border-color: #eb8d8d;
+	font-family: Arial;
+	font-size: 12cm;
+}

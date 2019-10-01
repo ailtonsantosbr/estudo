@@ -1,0 +1,21 @@
+/*!* Copyright(c) 2015 BMC Software,Inc. * All rights reserved. * * This software is the confidential and proprietary information of * BMC Software,Inc("Confidential Information"). You shall not * disclose such Confidential Information and shall use it only in * accordance with the terms of the license agreement between * you and BMC Software,Inc. */ div.rtidetails {
+	width:360px;
+}
+div.bandwidth {
+	width:320px;
+}
+div.pageload {
+	width:320px;
+}
+div.transactions {
+	width:320px;
+}
+div.inlinevalues {
+	left:200px;
+}
+div.txinlinevalue {
+	left:210px;
+}
+span.truncate {
+	width:20%;
+}

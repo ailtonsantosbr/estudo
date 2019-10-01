@@ -1,0 +1,13 @@
+<!doctype html >
+<html>
+	<head>
+	<title> Exemplo</title>
+	</head>
+	<body>
+
+	<?php
+	echo "ola, eu sou um script PHP!";
+	?>
+	</body>
+</html>
+

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PHPinfo()</title>
+</head>
+<body>
+
+<?php
+phpinfo();
+$a_bool = TRUE; // um boooleano
+$a_str = "foo"; // uma string
+$a_str2 = 'foo' // uma string
+$an_int = 12; 	// um inteiro
+
+echo gettype($a_bool); // mostra: boolean
+echo gettype($a_str); // mostra: string
+
+// se ele é um inteiro, incrementa-o com 4
+if (is_int($a_bool)) {
+	$an_int += 4;
+}
+
+// sel $bool é uma string, mostre-a
+// (não imprime nada)
+if (is_string($a_bool)) {
+	# code...
+	echo "string: $a_bool";
+}
+
+// Show all errors.
+error_reporting(E_ALL);
+
+class beers {
+	const softdrink = 'rootbeer';
+	public static $ale = 'ipa';
+}
+
+$rootbeer = 'A & W';
+$ipa = 'Alexander Keith\'s';
+
+// This works, outputs: I'd like an A & W
+echo "I'd like an {${beers::softdrink}}\n";
+
+// This works too; outputs: I'd link an Alexander Keith's
+echo "I'd like an {${beers::$ale}}\n";
+
+if (is_int($an_int)) {
+	# code...
+	$an_int += 4;
+	echo $an_int; //mostra o valor da variavel $an_int
+	if (is_int($an_int)) {
+		echo "$an_int"; // se o valor for inteiro
+	} else {
+		echo "não é um valor inteiro";
+	}
+}
+
+$people = new people();
+
+?>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulario de Cadastro do usuário!!</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="/estilo/style.css">
+	
+</head>
+<body>
+<div name="form">
+	<form method="post" action="form.php"> <!--formulario envia dados via POST -->
+		Nome:<br>
+		<input type="text" name="nome"><br> <!--formato Primeiro caractere do nome em maiusculo; -->
+		Data Nscto:<br>
+		<input type="date" name="data"><br> <!--formato xx-xx-xxxx-->
+		CPF:<br>
+		<input type="text" name="cpf"><br> <!--formato 123.456.789-00-->
+		Celular:<br>
+		<input type="text" name="cel"><br> <!--formato (11) 99999-9999-->
+		Profissão:<br>
+		<input type="text" name="prof"><br> <!-- Profissão -->
+		Endereço:<br>
+		<input type="text" name="end"><br> <!-- Endereço --><br>
+		<input type="submit" name="botao" submit="Enviar dados">
+	</form>
+
+</div>
+
+</body>
+
+Copyright &copy 2010-<?php date("Y");?> - By Ailton Santos
+
+</html>

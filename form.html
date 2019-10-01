@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Formulario de Cadastro do usuário!!</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="_css/form.css">
+	
+</head>
+<body> <!-- usando style sheet no corpo -->
+<header>	
+	<h1>Formulário de cadastro de usuário</h1>
+	<p id="cab">Paragráfo com todas as explicações</p>
+</header>
+
+<div name="form">
+	<form name="form1" method="post" action="form.php" target="_blank"> <!--formulario envia dados via POST -->
+		Nome:<br>
+		<input type="text" name="nome" placeholder="Nome do cliente" maxlength="40"><br> <!--formato Primeiro caractere do nome em maiusculo; -->
+		Estado Civil:<br>
+		<input method="POST" list="civil" name="civil">
+		<datalist id="civil">
+			<option value="Casado"></option>
+			<option value="Divorciado"></option>
+			<option value="Solteiro"></option>
+			<option value="Viuvo"></option>
+			<option value="Amazeado"></option>
+		</datalist><br>
+	
+		email:<br>
+		<input type="email" name="email" placeholder="digiteseu@email.com"><br> <!-- digite seu @email.com -->
+		Data de nascimento:<br>
+		<input type="date" name="data" placeholder="Data de nascimento"><br> <!--formato xx-xx-xxxx-->
+		CPF:<br>
+		<input type="text" name="cpf" id="ao_cpf" placeholder="Digite número do CPF" maxlength="14" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}" required/><br>
+		<!--formato 123.456.789-00-->
+		Celular:<br>
+		<input type="tel" name="cel" placeholder="Celular" pattern="[0-9]{2}() [0-9]{5}-[0-9]{4}" required> <!--formato (11) 99999-9999-->
+		<span>Formato: 11 99999-4567</span><br>
+		Profissão:<br>
+		<input type="text" name="prof" placeholder="Programador Mobile"><br> <!-- Profissão -->
+		Endereço:<br>
+		<input type="text" name="end" placeholder="Rua, Av., Trav."><br> <!-- Endereço -->
+		Cidade: <br>
+		<input type="text" name="cidade" placeholder="Cidade"> <br> <!-- Cidade aprendendo a sintax -->
+		Estado: <br>
+		<input type="text" name="estado" placeholder="Estado"><br><br>
+
+		<input type="submit" name="botao" submit="submit" value="Enviar dados">
+		<input type="reset"><br>
+
+		<input type="radio" name="genero" value="masculino" checked> Masculino<br>
+		<input type="radio" name="genero" value="feminino"> Feminino <br>
+		<input type="radio" name="genero" value="Outro">Outro<br>
+		Comentario: <textarea name="comentario" rows="5" cols="40"></textarea>
+	</form>
+
+<p>Copyright &copy; 2010-2019 - by Ailton Santos</p>
+
+</div>
+
+</body>
+
+</html>

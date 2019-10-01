@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+<form action="formulario.php" target="_blank" method="POST">
+    Nome: <input type="text" name="nome" maxlength="60"><br>
+    Dt. Nasc.: <input type="date" name="data"><br>
+    <!-- Idade: <input type="date" name="idade" max="" ><br>  -->
+    CPF.: <input type="text" name="cpf"><br>
+    Cel.: <input type="text" name="celular">
+    Profissão: <input type="text" name="profissao"><br><br>
+    <input type="submit" value="Enviar dados"><br>
+</form>
+
+Copyright &copy; - 2010-<?php echo getdate("Y");?> by Ailton Santos
+
+</body>
+</html>
